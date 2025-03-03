@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="wrGCl1rNEA949R5riqjP">
+    <mxGraphModel dx="1290" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yfQva-4bSs-C61rxhuZw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-2" target="yfQva-4bSs-C61rxhuZw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="10" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-3" target="yfQva-4bSs-C61rxhuZw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-3" value="Assign 1-12 and thier corresponding month names to the dict monthdict" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-4" target="yfQva-4bSs-C61rxhuZw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-4" value="Assign 1-12 and thier corresponding season to the dict seasons" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-5" target="yfQva-4bSs-C61rxhuZw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-5" value="Prompt user for month (1-12)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-6" value="Assign user generated number to userMonth" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="540" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-7" target="yfQva-4bSs-C61rxhuZw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-7" value="Is the number 1-12?&lt;div&gt;if userMonth in monthdict&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="680" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-8" target="yfQva-4bSs-C61rxhuZw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-8" value="Display:The month is {monthdict[userMonth]} and the season is {season[userMonth]}" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="850" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-9" target="yfQva-4bSs-C61rxhuZw-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-9" value="Display: That&#39;s no moonth!" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="850" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-10" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-6" target="yfQva-4bSs-C61rxhuZw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yfQva-4bSs-C61rxhuZw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yfQva-4bSs-C61rxhuZw-7" target="yfQva-4bSs-C61rxhuZw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

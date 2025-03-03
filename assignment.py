@@ -13,3 +13,39 @@
 #The month is February and the current season is Winter.
 #Remember to also complete the flowchart. It is strongly advised that you do the flowchart first,
 #as this will help you write the code.
+
+monthdict = {
+    1: "January",
+    2: "February",
+    3: "March",
+    4: "April",
+    5: "May",
+    6: "June",
+    7: "July",
+    8: "August",
+    9: "September",
+    10: "October",
+    11: "November",
+    12: "December",
+}
+
+season = {
+    1: "winter",
+    2: "winter",
+    3: "spring",
+    4: "spring",
+    5: "spring",
+    6: "summer",
+    7: "summer",
+    8: "summer",
+    9: "fall",
+    10: "fall",
+    11: "fall",
+    12: "winter",
+}
+
+userMonth = int(input("What month is it? (1-12)"))
+if userMonth in monthdict:
+    print(f"The month is {monthdict[userMonth]} and the season is {season[userMonth]}")
+else:
+    print("That is no moonth!")
